@@ -1,0 +1,25 @@
+read /tmp/manhattan-small.png
+process sepia
+process greyscale
+process blur
+process sharpen
+process mosaic 1000
+process dither
+draw flag FRANCE 1000
+draw checkerboard 500 50
+write /tmp/manhattan-small-mixed.png
+read /tmp/manhattan-small.png
+process greyscale
+write /tmp/manhattan-small-gs.png
+read /tmp/manhattan-small.png
+process sepia
+write /tmp/manhattan-small-sepia.png
+read /tmp/manhattan-small.png
+process mosaic 3000
+write /tmp/manhattan-small-mosaic.png
+read /tmp/manhattan-small.png
+process dither
+process blur
+write /tmp/manhattan-small-blur-dither.tiff
+draw flag GREECE 500
+draw checkerboard 100 10

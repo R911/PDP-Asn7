@@ -1,0 +1,37 @@
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1.jpg
+draw checkerboard 800 40
+process sepia
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Sepia.jpg
+draw flag SWITZERLAND 900
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Sepia.jpg
+draw rainbow 500 500 50 V true
+process blur
+draw flag FRANCE 400
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Sepia_BLUR.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1.jpg
+process greyscale
+draw flag GREECE 500
+draw checkerboard 100 10
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Greyscale.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img2.jpg
+process dither
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img2_Dither.jpg
+draw rainbow 500 500 50 H true
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1.jpg
+process sharpen
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Sharpen.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img2.jpg
+process mosaic 2700
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img2_Mosaic.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img2_Mosaic.jpg
+process sharpen
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img_Mosaic_Sharpen.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img2_Mosaic.jpg
+process dither
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img_Mosaic_Dither.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1.jpg
+process dither
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Dither.jpg
+read C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1.jpg
+process mosaic 5000
+write C:\Users\ankit\Workspaces\IntellijIdea\CS5010\CS5010-Assignment-7\res\Img1_Mosaic.jpg
